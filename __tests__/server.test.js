@@ -84,12 +84,6 @@ it('bad method', async () => {
       });
 
 
-    //   it('delete a food using DELETE /food/:id', async () => {
-    //     const res = await request.delete(`/api/v1/food/${id}`);
-    //     // expect(res.status).toEqual(202);
-    //     expect(res.body.id.length).toEqual(0);
-    //   });
-
     it('delete a food using DELETE /food/:id', async () => {
         const res = await request.delete(`/api/v1/food/${id}`);
         expect(res.status).toEqual(200);
