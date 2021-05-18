@@ -38,11 +38,9 @@
         "rout": "/err",
     }
 
- ```
+    ```
 
-    
-
-     - Endpoint: **anything else ..**
+- Endpoint: **anything else ..**
   - Returns an error 404
   - Returns an Object
 
@@ -54,8 +52,14 @@
     }
 
     ```
+
+
 #### Tests
 
 - Unit Tests: `npm run test`
 - Lint Tests: `npm run lint`
 
+
+#### UML
+
+![uml](./uml.png)
